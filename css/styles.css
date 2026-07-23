@@ -1,0 +1,33 @@
+#page-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article p{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+article h2{
+    text-align: center;
+}
+
+article a{
+    color: black;
+    text-decoration: underline;
+}
+
+article img{
+    display: block;
+    margin: 15px auto;
+}
