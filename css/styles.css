@@ -1,9 +1,10 @@
-#page-title{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
-    margin: 0 0;
-    padding: 0;
+/*This css declarations are here to create
+a general scope of how the elements should look
+on all docs. No font-family should be different
+unlessneeded*/
+body{
+    margin: 0;
+    padding: 0%;
 }
 
 p{
@@ -13,6 +14,11 @@ p{
 h2{
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+/*Article elements are used inside index.
+this is because I'm using article as a div
+for each entry (Every entry is a new recipe).*/
 
 article p{
     max-width: 300px;
@@ -33,4 +39,18 @@ article a{
 article img{
     display: block;
     margin: 15px auto;
+}
+
+
+/*Page-title represents the title on index.
+I use ID because it appears only on index.html,
+if this change, I'll turn this into a class*/
+
+#page-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin: 0 0;
+    padding: 10px;
+    border: 0px;
 }
